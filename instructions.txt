@@ -1,0 +1,13 @@
+1. dist ----> Folder
+2. src -----> Folder
+3. css -----> Folder
+4. index.html -> File
+5. Install globally typescript ----> cmd ---> npm i -g typescript 
+   (If not installed already)
+6. tsconfig.json -> File ----> cmd ----> tsc --init
+   Configure tsconfig.json
+             target: "ES2022"
+             rooDir: "./src"
+             outDir:"./dist"
+             noEmitOnError: true
+
